@@ -3,7 +3,7 @@ window.onload = function() {
     var login = document.getElementById('login');
     
     login.onclick = function() {
-        if (hash(password.value) == "6gKPw") {
+        if (hash(password.value) == "iddt8E") {
             window.location.href = "html/album.html";
         } else {
         	password.value="";
