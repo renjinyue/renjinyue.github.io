@@ -75,7 +75,7 @@ function addPic() {
         setImg(oImg);
         oImg.onerror = function() {
             checkImg = false;
-            oImg.src = "../image/album" + document.body.id + "/album" + document.body.id + "_1.jpg";
+            //oImg.src = "../image/album" + document.body.id + "/album" + document.body.id + "_1.jpg";
         }
     }
 }
